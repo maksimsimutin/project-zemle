@@ -6,8 +6,9 @@
     <title>Ridna-zemle</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/kyiv-machine" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+   
 </head>
 <body>
     <!--HEADER-->
@@ -53,6 +54,81 @@
             <buttom>Зробити замовлення</buttom>
         </div>
     </footer>
+    <!-- BACKDROP MODAL -->
+    <div class="backdrop is-open">
+        <div class="modal-window">
+            <button class="btn-close">
+                <span class="btn-close-container">
+                    <svg class="btn-close-icon" width="24" height="24" aria-label="btn close modal">
+                        <use href="/images/icon/sprite.svg#icon-cancel-circle"></use>
+                    </svg>
+                </span>
+            </button>
+        </div>
+        <p class="review-form-deskription">залиште контакти для підтвердження замовлення</p>
+        <form class="review-form">
+            <div class="review-form-field-wrapper">
+                <label class="review-form-field-label" for="user-name">Name</label>
+            <div class="review-form-input-wrapper">
+                <input
+                class="review-form-input"
+                type="text"
+                id="user-name"
+                name="user-name"
+                required
+                /> 
+                    <svg class="review-form-input-icon">
+                        <use></use>
+                    </svg>            
+            </div>
+            </div>
+            <div class="review-form-field-wrapper">
+                <label class="review-form-field-label" for="user-tel">Phone</label>
+            <div class="review-form-input-wrapper">
+                <input 
+                class="review-form-input"
+                type="tel"
+                id="user-tel"
+                name="user-tel"
+                required 
+                />
+                    <svg class="review-form-input-icon">
+                        <use></use>
+                    </svg>               
+            </div>
+            </div>
+            <div class="review-form-field-wrapper">
+                <label class="review-form-field-label" for="user-email">Email</label>
+            <div class="review-form-input-wrapper">
+                <input
+                class="review-form-input"
+                type="email"
+                id="user-email"
+                name="user-email"
+                required
+                />
+                    <svg class="review-form-input-icon">
+                        <use></use>
+                    </svg>                
+            </div>
+            </div>
+            <div class="review-form-field-wrapper">
+                <label class="review-form-field-label" for="user-comment">Comment</label>
+            <div class="review-form-input-wrapper">
+                <input
+                class="review-form-input"
+                id="user-comment"
+                name="user-comment"
+                placeholder="Введіть текст"
+                required 
+                />
+                    <svg class="review-form-input-icon">
+                        <use></use>
+                    </svg>               
+            </div>
+            </div>
+        </form>
+    </div>
     
 
     
