@@ -55,7 +55,7 @@
         </div>
     </footer>
     <!-- BACKDROP MODAL -->
-    <div class="backdrop is-open">
+    <div class="backdrop ">
         <div class="modal-window">
             <button class="btn-close">
                 <span class="btn-close-container">
@@ -64,72 +64,68 @@
                     </svg>
                 </span>
             </button>
+            <p class="review-form-deskription">залиште контакти для підтвердження замовлення</p>
+            <form class="review-form">
+                <div class="review-form-field-wrapper">
+                    <label class="review-form-field-label" for="user-name">Ім'я</label>
+                    <div class="review-form-input-wrapper">
+                        <input
+                        class="review-form-input"
+                        type="text"
+                        id="user-name"
+                        name="user-name"
+                        required
+                        /> 
+                        <svg class="review-form-input-icon" width="16" height="16" aria-label="user">
+                            <use href="./images/icon/sprite.svg#icon-user"></use>
+                        </svg>            
+                    </div>
+                </div>
+                <div class="review-form-field-wrapper">
+                    <label class="review-form-field-label" for="user-tel">Телефон</label>
+                    <div class="review-form-input-wrapper">
+                        <input 
+                        class="review-form-input"
+                        type="tel"
+                        id="user-tel"
+                        name="user-tel"
+                        required 
+                        />
+                        <svg class="review-form-input-icon" width="16" height="16" aria-label="phone">
+                            <use href="./images/icon/sprite.svg#icon-phone"></use>
+                        </svg>               
+                    </div>
+                </div>
+                <div class="review-form-field-wrapper">
+                    <label class="review-form-field-label" for="user-email">Email</label>
+                    <div class="review-form-input-wrapper">
+                        <input
+                        class="review-form-input"
+                        type="email"
+                        id="user-email"
+                        name="user-email"
+                        required
+                        />
+                        <svg class="review-form-input-icon" width="16" height="16" aria-label="envelop">
+                            <use href="./images/icon/sprite.svg#icon-envelop"></use>
+                        </svg>                
+                    </div>
+                </div>
+                <div class="review-form-field-wrapper">
+                    <label class="review-form-field-label" for="user-comment">Коментар</label>
+                    <textarea
+                        class="review-form-comment"
+                        id="user-comment"
+                        name="user-comment"
+                        placeholder="Введіть текст"
+                        required 
+                    ></textarea>
+                </div>
+                <button class="review-form-submit-btn" type="submit">Відправити</button>           
+            </form>
         </div>
-        <p class="review-form-deskription">залиште контакти для підтвердження замовлення</p>
-        <form class="review-form">
-            <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="user-name">Name</label>
-            <div class="review-form-input-wrapper">
-                <input
-                class="review-form-input"
-                type="text"
-                id="user-name"
-                name="user-name"
-                required
-                /> 
-                    <svg class="review-form-input-icon">
-                        <use></use>
-                    </svg>            
-            </div>
-            </div>
-            <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="user-tel">Phone</label>
-            <div class="review-form-input-wrapper">
-                <input 
-                class="review-form-input"
-                type="tel"
-                id="user-tel"
-                name="user-tel"
-                required 
-                />
-                    <svg class="review-form-input-icon">
-                        <use></use>
-                    </svg>               
-            </div>
-            </div>
-            <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="user-email">Email</label>
-            <div class="review-form-input-wrapper">
-                <input
-                class="review-form-input"
-                type="email"
-                id="user-email"
-                name="user-email"
-                required
-                />
-                    <svg class="review-form-input-icon">
-                        <use></use>
-                    </svg>                
-            </div>
-            </div>
-            <div class="review-form-field-wrapper">
-                <label class="review-form-field-label" for="user-comment">Comment</label>
-            <div class="review-form-input-wrapper">
-                <input
-                class="review-form-input"
-                id="user-comment"
-                name="user-comment"
-                placeholder="Введіть текст"
-                required 
-                />
-                    <svg class="review-form-input-icon">
-                        <use></use>
-                    </svg>               
-            </div>
-            </div>
-        </form>
     </div>
-    
+        
 
     
 </body>
