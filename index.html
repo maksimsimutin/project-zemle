@@ -37,21 +37,57 @@
                 <button class="hero-button">Зробити замовлення</button>
             </div>
         </section>
-        <section>
-            <div>
-                <h2>Портфоліо</h2>
-                <ul>
-                    <li><picture><img src="" alt=""></picture><a href="">Перстень</a></li>
-                    <li><picture><img src="" alt=""></picture><a href="">Браслет</a></li>
-                    <li><picture><img src="" alt=""></picture><a href="">Підвіска</a></li>
+        <section class="portfolio-page section">
+            <div class="portfolio-page-container container">
+                <h2 class="portfolio-title">Портфоліо</h2>
+                <ul class="portfolio-list list">
+                    <li class="portfolio-item">
+                        <picture>
+                            <img class="portfolio-img" src="./images/portfolio/mob-img1.jpg" alt="Persten">
+                        </picture>
+                        <div class="portfolio-link-icon-container">
+                            <p class="portfolio-paragraph">Перстень</p>
+                            <a class="portfolio-link link" href="">
+                                <svg class="portfolio-icon" width="24" height="24" aria-label="" >
+                                    <use href="./images/icon/sprite.svg#icon-arrow-right" ></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <picture>
+                            <img class="portfolio-img" src="./images/portfolio/mob-img2.jpg" alt="">
+                        </picture>
+                        <div class="portfolio-link-icon-container">
+                            <p class="portfolio-paragraph">Браслет</p>
+                            <a class="portfolio-link link" href="">
+                                <svg class="portfolio-icon" width="24" height="24" aria-label="instagram" >
+                                    <use href="./images/icon/sprite.svg#icon-arrow-right" ></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
+                    <li class="portfolio-item">
+                        <picture>
+                            <img class="portfolio-img" src="./images/portfolio/mob-img3.jpg" alt="Pidviska">
+                        </picture>
+                        <div class="portfolio-link-icon-container">
+                            <p class="portfolio-paragraph">Підвіска</p>
+                            <a class="portfolio-link link" href="">
+                                <svg class="portfolio-icon" width="24" height="24" aria-label="arrow right" >
+                                    <use href="./images/icon/sprite.svg#icon-arrow-right"></use>
+                                </svg>
+                            </a>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </section>
     </main>
-    <footer>
-        <div>
-            <p>Всі наші прикраси створюються тільки під індивідуальне замовлення.</p>
-            <buttom>Зробити замовлення</buttom>
+    <footer class="footer-page section">
+        <div class="footer-container container" >
+            <p class="footer-paragraph" >Всі наші прикраси створюються тільки під індивідуальне замовлення.</p>
+            <button class="footer-button" >Зробити замовлення</button>
         </div>
     </footer>
     <!-- BACKDROP MODAL -->
