@@ -311,11 +311,6 @@ body {
 
  }
 
-
-
-
-
-
  /*===MOBILE FOOTER STYLES===*/
 
  .footer-page {
@@ -392,6 +387,13 @@ body {
        column-gap: 30px;     
     }
 
+  /*===TABLET MATERIALS STYLES===*/
+
+    .materials-list {
+      display: flex;
+      column-gap: 30px;
+    }
+
  }
 
  /*===DEKSTOP HEADER STYLES===*/
@@ -434,6 +436,14 @@ body {
         justify-content: center;
         column-gap: 30px;     
     }  
+
+ /*===TABLET MATERIALS STYLES===*/
+    
+    .materials-list {
+      display: flex;
+      column-gap: 30px;
+    }
+    
     
  /*===DEKSTOP FOOTER STYLES===*/
  
